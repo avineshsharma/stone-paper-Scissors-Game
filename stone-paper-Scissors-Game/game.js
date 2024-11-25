@@ -3,3 +3,4 @@
 // let computerscore=0;
 let a= BigInt("567")
 alert("hello partner")
+prompt("hi ,no ob")

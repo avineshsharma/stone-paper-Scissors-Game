@@ -27,3 +27,4 @@ function playGame(userChoice) {
 
     document.getElementById("game-result").textContent = `Result: ${result}`;
 }
+console.log("hlo")

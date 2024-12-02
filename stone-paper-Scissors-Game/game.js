@@ -56,3 +56,4 @@ function playGame(userChoice) {
 
     gameResultElement.textContent = `Result: ${result}`;
 }
+console.log("hllo partner")

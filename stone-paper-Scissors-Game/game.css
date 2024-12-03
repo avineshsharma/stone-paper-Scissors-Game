@@ -9,7 +9,7 @@ h1{
    text-align: center; 
    border: 5rem;
    background-color: black;
-   line-height: 5rem;
+   line-height: 1rem;
 
 }
 .choice{
@@ -36,8 +36,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    margin-top: 2rem;
+    gap: 5rem;
+    margin-top: 5rem;
 
 }
 .score-board{

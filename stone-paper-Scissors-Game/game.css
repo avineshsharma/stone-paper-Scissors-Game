@@ -9,14 +9,14 @@ h1{
    text-align: center; 
    border: 5rem;
    background-color: black;
-   line-height: 1rem;
+   line-height: 5rem;
 
 }
 .choice{
     height: 100px;
     width: 100px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 45%;
     display: flex;
     justify-content: center;
     align-items: center;

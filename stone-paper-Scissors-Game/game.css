@@ -1,18 +1,20 @@
-*{
+* {
     padding: 0rem;
     margin: 0rem;
     text-align: center;
 }
-h1{
-   height: 5rem;
-   color: rgb(217, 240, 9); 
-   text-align: center; 
-   border: 5rem;
-   background-color: black;
-   line-height: 5rem;
+
+h1 {
+    height: 5rem;
+    color: rgb(217, 240, 9);
+    text-align: center;
+    border: 5rem;
+    background-color: black;
+    line-height: 5rem;
 
 }
-.choice{
+
+.choice {
     height: 100px;
     width: 100px;
     text-align: center;
@@ -21,18 +23,21 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.choice:hover{
+
+.choice:hover {
     opacity: 0.5;
     cursor: pointer;
     background-color: black;
 }
-img{
+
+img {
     height: 100px;
     width: 100px;
     object-fit: cover;
     border-radius: 50%;
 }
-.choices{
+
+.choices {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +45,8 @@ img{
     margin-top: 5rem;
 
 }
-.score-board{
+
+.score-board {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,14 +55,133 @@ img{
     gap: 0rem;
     margin-left: 15rem;
 }
-#your-score,#computer-score{
+
+#your-score,
+#computer-score {
     text-align: center;
     margin: 3rem;
-font-size : 5rem;
+    font-size: 5rem;
 }
+
 .msg-container {
     color: aliceblue;
-    background-color:rgb(4, 230, 246);
-   font-size: 2rem;
-   text-align: center;
+    background-color: rgb(4, 230, 246);
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Base styles for all devices */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: auto;
+    padding: 10px;
+}
+
+.container {
+    padding: 0 20px;
+} */
+
+/* Responsive styles */
+@media only screen and (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .main-p {
+        padding: 0 20px;
+    }
+
+    .single-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content {
+        margin: 10px 0;
+    }
+}
+
+@media only all and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        margin-top: 20px;
+    }
+
+    .main {
+        padding: 20px 10px;
+    }
+
+    .main h1 {
+        font-size: 1.5rem;
+    }
+
+    .single-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-content ul {
+        margin-bottom: 20px;
+    }
+}
+
+@medi  only  and (max-width: 480px) {
+    .header {
+        padding: 5px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+    }
+
+    .main h1 {
+        font-size: 1.2rem;
+    }
+
+    .main-p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .single-card {
+        padding: 20px;
+    }
+
+    .footer-content {
+        font-size: 14px;
+    }
 }
